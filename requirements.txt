@@ -3,3 +3,8 @@ pandas
 streamlit
 simpy
 numpy
+os
+arxiv
+langchain
+langchain-google-genai
+pypdf
