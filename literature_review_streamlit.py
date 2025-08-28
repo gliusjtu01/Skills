@@ -151,9 +151,10 @@ def main():
     st.sidebar.header("🔧 Configuration")
     
     # API Key input
+    api_key = os.environ.get("GOOGLE_API_KEY")
     google_api_key = st.sidebar.text_input(
         "Google API Key",
-        value="AIzaSyA6SzXBN468knLC_aQO_v7b0AJTctj6q4w",
+        value=api_key,
         type="password",
         help="Enter your Google AI API key"
     )
