@@ -3,7 +3,7 @@ import arxiv
 import streamlit as st
 import tempfile
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from typing import List, Dict
 import re
